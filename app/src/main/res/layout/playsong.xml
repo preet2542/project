@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    xmlns:playpauseview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0d0c0d"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="My PlayList"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#bebcbc"
+        android:background="#0d0c0d"
+        android:id="@+id/hd"/>
+    <ListView
+android:dividerHeight="3.5dp"
+android:layout_below="@+id/hd"
+        android:id="@+id/listtt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#907e7c7c"
+        android:orientation="vertical"
+        android:gravity="bottom"
+android:padding="5.5dp"
+        android:layout_alignParentBottom="true"
+
+      >
+
+        <TextView
+            android:id="@+id/selecteditem"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="middle"
+            android:gravity="center_horizontal"
+            android:singleLine="true"
+            android:text="No file Selected"
+            android:textSize="18sp"
+android:textStyle="bold"
+            android:padding="3dp"
+            android:textColor="#fff" />
+
+        <SeekBar
+            android:id="@+id/seekBar"
+
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:paddingBottom="10dp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#0b0b0b"
+            android:gravity="center"
+android:padding="10dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/previous"
+                android:layout_width="wrap_content"
+                android:background="#30ffffff"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_media_previous"
+                android:layout_marginRight="15dp"/>
+
+            <ImageButton
+                android:id="@+id/play"
+                android:background="#30ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_media_play"
+                android:layout_marginRight="15dp"/>
+
+            <ImageButton
+                android:id="@+id/next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#30ffffff"
+                android:src="@android:drawable/ic_media_next" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "459615515888",
+    "firebase_url": "https://mymusicplay-e8575.firebaseio.com",
+    "project_id": "mymusicplay-e8575",
+    "storage_bucket": "mymusicplay-e8575.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459615515888:android:bac3e2c5624b5b18",
+        "android_client_info": {
+          "package_name": "com.example.pc56.firebasemusicstreamingwithstorage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "459615515888-nk1aa96f9fj7bpatol0jsj4ist7k7n4v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pc56.firebasemusicstreamingwithstorage",
+            "certificate_hash": "9ed5ab7c6a39d4d27ef98452577b93f64ed72f7e"
+          }
+        },
+        {
+          "client_id": "459615515888-r9jc1dn606ue64rqivjmn4f3ma7nife0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6d-CAYhVwZnMcYpsZWzPK8wskQc0HwOI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "459615515888-r9jc1dn606ue64rqivjmn4f3ma7nife0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
